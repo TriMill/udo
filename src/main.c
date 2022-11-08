@@ -8,7 +8,7 @@
 #include <security/pam_misc.h>
 
 int main(int argc, char** argv) {
-    if(argc == 1) {
+    if(argc <= 1) {
         printf("insufficient\n");
         return 0;
     }

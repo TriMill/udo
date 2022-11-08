@@ -3,7 +3,7 @@ BIN=udo
 
 all:
 	mkdir -p bin
-	gcc $(CFLAGS) $(wildcard src/*.c) -o bin/udo
+	gcc $(wildcard src/*.c) -o bin/udo $(CFLAGS) 
 
 install: all
 	cp bin/udo /usr/local/bin/udo
