@@ -8,11 +8,11 @@ the config file is located at `/etc/udo.conf`. it is a space-separated list of U
 
 ## installation
 
-`sudo make install`
+`# make install`
 
 ## uninstallation
 
-`sudo make uninstall`, but why would you want to?
+`# make uninstall`, but why would you want to?
 
 ## why does it segfault?
 
