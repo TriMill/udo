@@ -10,6 +10,7 @@ install: all
 	chown root:root /usr/local/bin/udo
 	chmod 6755 /usr/local/bin/udo
 	cp pam.d_udo /etc/pam.d/udo
+	cp -n udo.conf /etc/udo.conf
 
 uninstall:
 	rm /usr/local/bin/udo
